@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --font-myFont: "yekan";
+}
+@font-face {
+  font-family: Yekan;
+  font-style: normal;
+  font-weight: 200 700;
+  src: url("/public/fonts/BYekan+.ttf");
+}
