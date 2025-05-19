@@ -8,3 +8,33 @@
   font-weight: 200 700;
   src: url("/public/fonts/BYekan+.ttf");
 }
+.custom-clip {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 40%,
+    90% 50%,
+    100% 60%,
+    100% 100%,
+    0 100%
+  );
+}
+/* اسکرول‌بار خیلی باریک و مینیمال */
+.custom-scroll::-webkit-scrollbar {
+  width: 4px; /* عرض نوار اسکرول */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* رنگ نوار */
+  border-radius: 9999px;
+}
+
+/* برای فایرفاکس */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
