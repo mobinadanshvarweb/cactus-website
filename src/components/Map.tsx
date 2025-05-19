@@ -30,9 +30,6 @@ const MyMap = () => {
         attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {/* <Marker position={position}>
-        <Popup>کارخانه استیل کاکتوس</Popup>
-      </Marker> */}
       <Marker position={position}>
         <Popup>
           <span className="font-myFont">کارخانه استیل کاکتوس</span>

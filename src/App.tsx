@@ -1,11 +1,15 @@
 import { PiCactus } from "react-icons/pi";
-import { IoLocationOutline } from "react-icons/io5";
+import { IoLocationOutline, IoClose } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
 import Title from "./components/Title";
 import MyMap from "./components/Map";
+import { useState } from "react";
 const App = () => {
+  const [hamMenu, setHamMenu] = useState(false);
   return (
     <div className="w-full flex flex-col min-h-screen justify-center items-center font-myFont">
+      {/* header */}
       <header className="w-full min-h-screen bg-red-300 relative">
         <img
           src="/imgs/banner.jpg"
@@ -16,7 +20,8 @@ const App = () => {
         <h1 className="absolute w-full flex justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-4xl sm:text-6xl md:text-8xl  lg:text-9xl font-bold z-20 text-white text-shadow-2xs">
           استیل کاکتوس
         </h1>
-        <nav className="absolute top-0 left-0 w-full  p-3 z-20  flex justify-between px-8">
+        {/* desktop nav */}
+        <nav className="absolute top-0 left-0 w-full  p-3 z-20 hidden  lg:flex justify-between px-8">
           <ul className="flex-1  flex items-center gap-6 justify-start text-green-700 text-xl">
             <li className="text-shadow-lg cursor-pointer ">محصولات</li>
             <li className="text-shadow-lg cursor-pointer ">درباره ما</li>
@@ -26,6 +31,36 @@ const App = () => {
             <PiCactus size={40} className="text-green-700 text-shadow-lg" />
           </div>
         </nav>
+        {/* mobile nav (hamburgur menu) */}
+        <nav className="w-full flex justify-between p-3 absolute z-20 top-0 left-0 lg:hidden">
+          <div
+            onClick={() => {
+              setHamMenu(!hamMenu);
+            }}
+          >
+            <RxHamburgerMenu
+              size={40}
+              className="text-green-700 text-shadow-lg"
+            />
+          </div>
+          <div>
+            <PiCactus size={40} className="text-green-700 text-shadow-lg" />
+          </div>
+        </nav>
+        <div
+          className={`absolute  bg-gray-300 right-0 top-0 !z-50  shadow w-2/3 min-h-screen flex flex-col lg:hidden transition-all duration-500  ${
+            hamMenu ? "translate-x-[0]" : "translate-x-[100%]"
+          }`}
+        >
+          <span
+            className="w-full p-3"
+            onClick={() => {
+              setHamMenu(false);
+            }}
+          >
+            <IoClose size={30} />
+          </span>
+        </div>
       </header>
       {/* about us */}
       <section className="w-full min-h-screen flex flex-col justify-center items-center">
@@ -93,6 +128,8 @@ const App = () => {
           </div>
         </div>
       </section>
+      {/*  */}
+      <section className="h-screen w-full"></section>
     </div>
   );
 };
