@@ -35,12 +35,13 @@ const MyMap = () => {
       </Marker> */}
       <Marker position={position}>
         <Popup>
-          کارخانه استیل کاکتوس
+          <span className="font-myFont">کارخانه استیل کاکتوس</span>
           <br />
           <a
             href="https://www.google.com/maps/dir/?api=1&destination=35.43281,51.81347"
             target="_blank"
             rel="noopener noreferrer"
+            className="font-myFont"
           >
             مسیریابی با گوگل‌مپ
           </a>
