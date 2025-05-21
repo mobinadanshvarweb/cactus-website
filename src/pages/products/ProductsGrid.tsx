@@ -43,14 +43,14 @@ const ProductsGrid = ({
         {!isShowingAll ? (
           <button
             onClick={showMore}
-            className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition"
+            className="bg-[#2c8039] text-white px-6 py-2 rounded hover:bg-[#398f35] transition"
           >
             نمایش بیشتر
           </button>
         ) : (
           <button
             onClick={showLess}
-            className="bg-gray-300 text-gray-700 px-6 py-2 rounded hover:bg-gray-400 transition"
+            className="bg-gray-300 text-[#393a3f] px-6 py-2 rounded hover:bg-gray-400 transition"
           >
             نمایش کمتر
           </button>

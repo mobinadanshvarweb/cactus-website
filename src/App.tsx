@@ -15,16 +15,16 @@ const App = () => {
         classname="bottom-16"
         icon={<FiPhone size={20} />}
         text="تماس بگیرید"
-        href="tel:+989912050316"
+        href="tel:+989007203922"
       />
       <QuickAccess
         classname="bottom-1"
         icon={<IoLogoWhatsapp size={26} />}
         text="پیام دهید"
-        href="https://wa.me/989912050316"
+        href="https://wa.me/989127203922"
       />
       <Header />
-      <main className="flex flex-col">
+      <main className="flex flex-col gap-8">
         <About />
         <Product />
         <Contact />

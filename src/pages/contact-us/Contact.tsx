@@ -11,7 +11,7 @@ const Contact = () => {
       className="w-full min-h-screen flex flex-col justify-center items-center scroll-smooth"
     >
       <Title text="تماس با ما" />
-      <div className="flex-1 w-full flex flex-wrap justify-center items-center ">
+      <div className="flex-1 w-full flex flex-wrap justify-center items-center bg-[#393a3f]">
         <div className="w-full lg:w-1/2 px-3 lg:px-16 bg-[#393a3f] flex flex-col gap-4 items-center justify-center  text-[#bdc4ce] h-[400px] py-16 lg:py-0">
           <div className="flex w-full h-1/2 items-center justify-center">
             <div className="w-full flex flex-wrap gap-1 justify-center items-center">
@@ -50,12 +50,12 @@ const Contact = () => {
                   </div>
                   <div className="flex flex-wrap">
                     <span className="w-1/2 flex justify-center lg:justify-end items-center">
-                      <a href="tel:+989912050316">
+                      <a href="tel:+989007203922">
                         {toPersianDigits("09007203922")}
                       </a>
                     </span>
                     <span className="w-1/2 flex justify-center lg:justify-end items-center">
-                      <a href="https://wa.me/989912050316">
+                      <a href="https://wa.me/989127203922">
                         {toPersianDigits("09127203922")}
                       </a>
                     </span>
@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 flex items-center">
+        <div className="w-full lg:w-1/2 flex justify-center items-center h-[400px] bg-[#393a3f]">
           <MyMap />
         </div>
       </div>
