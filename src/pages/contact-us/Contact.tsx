@@ -39,22 +39,22 @@ const Contact = () => {
                 </div>
                 <div className="w-full flex flex-col flex-1 gap-4">
                   <div className="flex flex-wrap w-full">
-                    <span className="w-1/2 flex justify-end items-center">
+                    <span className="w-1/2 flex justify-center lg:justify-end items-center">
                       <a href="tel:02134754">{toPersianDigits("02134754")}</a>
                     </span>
-                    <span className="w-1/2 flex justify-end items-center">
+                    <span className="w-1/2 flex justify-center lg:justify-end items-center">
                       <a href="tel:02135000252">
                         {toPersianDigits("02135000252")}
                       </a>
                     </span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="w-1/2 flex justify-end items-center">
+                    <span className="w-1/2 flex justify-center lg:justify-end items-center">
                       <a href="tel:+989912050316">
                         {toPersianDigits("09007203922")}
                       </a>
                     </span>
-                    <span className="w-1/2 flex justify-end items-center">
+                    <span className="w-1/2 flex justify-center lg:justify-end items-center">
                       <a href="https://wa.me/989912050316">
                         {toPersianDigits("09127203922")}
                       </a>
