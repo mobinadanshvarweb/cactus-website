@@ -11,7 +11,7 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
   return (
     <div
       onClick={() => onShowDetails(product)}
-      className="shadow-lg rounded-lg p-4 flex flex-col items-center bg-white cursor-pointer"
+      className="shadow-lg rounded-lg p-4 flex flex-col items-center bg-white cursor-pointer hover:scale-105 transition-all duration-300"
     >
       <img
         src={product.image}
