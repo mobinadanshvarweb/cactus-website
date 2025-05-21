@@ -63,41 +63,51 @@ const App = () => {
           </div>
         </nav>
         <div
-          className={`absolute  bg-[#bfc0b9] right-0 top-0 !z-50  shadow w-2/3 min-h-screen flex flex-col lg:hidden transition-all duration-500  ${
+          className={`fixed left-0 top-0 z-50 w-full  min-h-screen ${
             hamMenu ? "translate-x-[0]" : "translate-x-[100%]"
           }`}
+          onClick={() => {
+            setHamMenu(false);
+          }}
         >
-          <span
-            className="w-full p-3"
-            onClick={() => {
-              setHamMenu(false);
-            }}
+          <div
+            className={`absolute  bg-[#bfc0b9] right-0 top-0 !z-50  shadow w-2/3 min-h-screen flex flex-col lg:hidden transition-all duration-500  ${
+              hamMenu ? "translate-x-[0]" : "translate-x-[100%]"
+            }`}
           >
-            <IoClose size={30} className="text-[#393a3f]" />
-          </span>
-          <ul
-            className="w-full flex flex-col gap-2"
-            onClick={(e) => {
-              e.stopPropagation();
-              setHamMenu(false);
-            }}
-          >
-            <Navigation
-              href="#products"
-              text="محصولات"
-              classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
-            />
-            <Navigation
-              href="#about"
-              text="درباره ما"
-              classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
-            />
-            <Navigation
-              href="#contact"
-              text="تماس با ما"
-              classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
-            />
-          </ul>
+            <span
+              className="w-full p-3"
+              onClick={() => {
+                setHamMenu(false);
+              }}
+            >
+              <IoClose size={30} className="text-[#393a3f]" />
+            </span>
+            <ul
+              className="w-full flex flex-col gap-2"
+              onClick={(e) => {
+                e.stopPropagation();
+                setHamMenu(false);
+              }}
+            >
+              <Navigation
+                href="#products"
+                text="محصولات"
+                classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
+              />
+              <Navigation
+                href="#about"
+                text="درباره ما"
+                classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
+              />
+              <Navigation
+                href="#contact"
+                text="تماس با ما"
+                classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
+              />
+            </ul>
+          </div>
+          kfmbmikdboikfdikbmjf
         </div>
       </header>
       <About />
