@@ -8,6 +8,9 @@
   font-weight: 200 700;
   src: url("/public/fonts/BYekan+.ttf");
 }
+html {
+  scroll-behavior: smooth;
+}
 .custom-clip {
   clip-path: polygon(
     0 0,
