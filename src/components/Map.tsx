@@ -24,7 +24,7 @@ const MyMap = () => {
     <MapContainer
       center={position}
       zoom={15}
-      style={{ height: "400px", width: "100%" }}
+      style={{ height: "400px", width: "100%", zIndex: "40" }}
     >
       <TileLayer
         attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'

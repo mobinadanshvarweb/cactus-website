@@ -39,18 +39,18 @@ const Contact = () => {
                 <div className="w-full flex flex-col flex-1 gap-4">
                   <div className="flex flex-wrap w-full">
                     <span className="w-1/2 flex justify-center items-center">
-                      09127203922
+                      <a href="tel:02134754">02134754</a>
                     </span>
                     <span className="w-1/2 flex justify-center items-center">
-                      02135000252
+                      <a href="tel:02135000252">02135000252</a>
                     </span>
                   </div>
                   <div className="flex flex-wrap">
                     <span className="w-1/2 flex justify-center items-center">
-                      09127203922
+                      <a href="tel:+989912050316">09007203922</a>
                     </span>
                     <span className="w-1/2 flex justify-center items-center">
-                      02135000252
+                      <a href="https://wa.me/989912050316">09127203922</a>
                     </span>
                   </div>
                 </div>
