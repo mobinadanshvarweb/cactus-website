@@ -42,7 +42,7 @@ const FAQ = () => {
           >
             <button
               onClick={() => toggle(index)}
-              className={`w-full flex text-2xl justify-between items-center px-6 py-4 text-right text-[#bfc0b9] font-semibold transition ${
+              className={`w-full flex lg:text-2xl justify-between items-center px-3 lg:px-6 py-4 text-right text-[#bfc0b9] font-semibold transition ${
                 isOpen ? "bg-[#2c8039]" : "bg-[#393a3f] hover:bg-[#2c8039]"
               }`}
             >
