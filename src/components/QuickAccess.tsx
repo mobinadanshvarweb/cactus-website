@@ -16,7 +16,7 @@ const QuickAccess = ({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`fixed  rounded-full w-14 h-14 flex justify-center items-center bg-[#bdc4ce] cursor-pointer z-50 drop-shadow-2xl border-2 border-[#2c8039] group hover:w-32 hover:justify-start transition-all duration-200 overflow-hidden text-[#2c8039]  ${classname}`}
+      className={`fixed right-2  rounded-full w-14 h-14 flex justify-center items-center bg-[#bdc4ce] cursor-pointer z-50 drop-shadow-2xl border-2 border-[#2c8039] group hover:w-32 hover:justify-start transition-all duration-200 overflow-hidden text-[#2c8039]  ${classname}`}
     >
       <span className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  group-hover:top-[-100%] transition-all duration-200">
         {icon}

@@ -10,13 +10,13 @@ const App = () => {
   return (
     <div className="w-full flex flex-col min-h-screen justify-center items-center font-myFont relative">
       <QuickAccess
-        classname="bottom-16 right-10"
+        classname="bottom-16"
         icon={<FiPhone size={20} />}
         text="تماس بگیرید"
         href="tel:+989912050316"
       />
       <QuickAccess
-        classname="bottom-1 right-10"
+        classname="bottom-1"
         icon={<IoLogoWhatsapp size={26} />}
         text="پیام دهید"
         href="https://wa.me/989912050316"
