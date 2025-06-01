@@ -16,11 +16,11 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
         className="w-full h-40 object-contain rounded"
       />
       <div className="flex flex-col gap-2 w-full">
-        <div className="flex justify-between w-full  items-center mt-3">
+        <div className="flex  w-full  items-center mt-3">
           <h3 className="font-bold text-lg text-[#393a3f] flex-1  flex ">
             {product.name}
           </h3>
-          <p className="text-[#393a3f] w-1/2 text-xs  flex justify-end">
+          <p className="text-[#393a3f]  text-xs  flex justify-end">
             کد: {product.code}
           </p>
         </div>

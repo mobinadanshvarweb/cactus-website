@@ -6,7 +6,7 @@ import QuickAccess from "./components/QuickAccess";
 import { FiPhone } from "react-icons/fi";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import Footer from "./components/Footer";
-import Faq from "./pages/faq/Faq";
+// import Faq from "./pages/faq/Faq";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
         <About />
         <Product />
         <Contact />
-        <Faq />
+        {/* <Faq /> */}
       </main>
       <Footer />
     </div>
