@@ -13,7 +13,7 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-40 object-cover rounded"
+        className="w-full h-40 object-contain rounded"
       />
       <div className="flex flex-col gap-2 w-full">
         <div className="flex justify-between w-full  items-center mt-3">
@@ -26,10 +26,10 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
         </div>
       </div>
       <div className="w-full flex justify-between items-center">
-        <p className="text-[#2c8039] font-semibold w-1/2">{product.price}</p>
+        {/* <p className="text-[#2c8039] font-semibold w-1/2">{product.price}</p> */}
         <span
           onClick={() => onShowDetails(product)}
-          className="w-1/2  text-xs flex justify-end underline cursor-pointer"
+          className="w-full  py-3 bg-green-200 rounded justify-center items-center text-lg text-green-800 flex cursor-pointer mt-4 hover:bg-green-900 hover:text-green-200 transition duration-300"
         >
           نمایش جزئیات
         </span>

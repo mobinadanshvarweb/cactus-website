@@ -29,7 +29,7 @@ const ProductDetailsModal = ({ product, onClose }: Props) => {
         />
         <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
         <p className="text-gray-700 mb-2">کد محصول: {product.code}</p>
-        <p className="text-green-600 font-semibold mb-4">{product.price}</p>
+        {/* <p className="text-green-600 font-semibold mb-4">{product.price}</p> */}
         <p className="text-gray-800">{product.description}</p>
       </div>
     </div>

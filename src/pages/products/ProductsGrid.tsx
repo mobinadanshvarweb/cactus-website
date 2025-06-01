@@ -48,12 +48,13 @@ const ProductsGrid = ({
             نمایش بیشتر
           </button>
         ) : (
-          <button
+          <a
+            href="#products"
             onClick={showLess}
-            className="bg-gray-300 text-[#393a3f] px-6 py-2 rounded hover:bg-gray-400 transition"
+            className="flex bg-gray-300 text-[#393a3f] px-6 py-2 rounded hover:bg-gray-400 transition"
           >
             نمایش کمتر
-          </button>
+          </a>
         )}
       </div>
     </>
