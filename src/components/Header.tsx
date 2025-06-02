@@ -13,7 +13,7 @@ const Header = () => {
         src="/imgs/banner.jpg"
         alt="تصویر بنر کارخانه استیل کاکتوس"
         className="w-full h-screen object-cover"
-        loading="eager" // چون بنر اصلیه
+        loading="eager"
       />
       <span
         className="absolute top-0 left-0 w-full h-screen z-10 bg-black/75"
@@ -46,7 +46,7 @@ const Header = () => {
         </button>
 
         <div>
-          <img src="/public/imgs/Color Fill 2.png" alt="" />
+          <img src="/public/imgs/Color Fill 2.png" alt="" className="w-32" />
         </div>
       </nav>
 
