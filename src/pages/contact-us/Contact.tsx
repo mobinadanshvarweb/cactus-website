@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full min-h-screen flex flex-col justify-center items-center scroll-smooth"
+      className="w-full  flex flex-col justify-center items-center scroll-smooth border-b-2 border-[#bfc0b9]"
     >
       <Title text="تماس با ما" />
-      <div className="flex-1 w-full flex flex-wrap justify-center items-center bg-[#393a3f] lg:bg-white">
+      <div className="flex-1 w-full flex flex-wrap justify-end items-center bg-[#393a3f] lg:bg-white">
         <div className="w-full lg:w-1/2 px-3 lg:px-16 bg-[#393a3f] flex flex-col gap-4 items-center justify-center  text-[#bdc4ce] h-[400px] py-16 lg:py-0">
           <div className="flex w-full h-1/2 items-center justify-center">
             <div className="w-full flex flex-wrap gap-1 justify-center items-center">

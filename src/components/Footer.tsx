@@ -1,8 +1,10 @@
+import { FaInstagram, FaTelegram, FaWhatsapp, FaGlobe } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-[#393a3f] text-[#bdc4ce] pt-10 pb-6 px-6 lg:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* بخش معرفی */}
+        {/* معرفی */}
         <div>
           <h3 className="text-xl font-bold mb-4">درباره ما</h3>
           <p className="text-sm leading-6">
@@ -12,7 +14,7 @@ const Footer = () => {
         </div>
 
         {/* لینک‌های سریع */}
-        <div>
+        <nav aria-label="لینک‌های دسترسی سریع">
           <h3 className="text-xl font-bold mb-4">دسترسی سریع</h3>
           <ul className="space-y-2 text-sm">
             <li>
@@ -30,30 +32,44 @@ const Footer = () => {
                 تماس با ما
               </a>
             </li>
-            <li>
-              <a href="#faq" className="hover:text-[#2ecc71] transition">
-                سوالات متداول
-              </a>
-            </li>
           </ul>
-        </div>
+        </nav>
 
         {/* شبکه‌های اجتماعی */}
         <div>
-          <h3 className="text-xl font-bold mb-4">ما را دنبال کنید</h3>
-          <div className="flex gap-4 text-lg">
-            <a href="#" className="hover:text-[#2ecc71] transition">
-              🌐
+          <h3 className="text-xl font-bold">ما را دنبال کنید</h3>
+          <div className="flex gap-4 text-xl  items-center">
+            <a
+              href="#"
+              aria-label="وب‌سایت"
+              className="hover:text-[#2ecc71] transition"
+            >
+              <FaGlobe />
             </a>
-            <a href="#" className="hover:text-[#2ecc71] transition">
-              📱
+            <a
+              href="#"
+              aria-label="تلگرام"
+              className="hover:text-[#2ecc71] transition"
+            >
+              <FaTelegram />
             </a>
-            <a href="#" className="hover:text-[#2ecc71] transition">
-              📷
+            <a
+              href="#"
+              aria-label="اینستاگرام"
+              className="hover:text-[#2ecc71] transition"
+            >
+              <FaInstagram />
             </a>
-            <a href="#" className="hover:text-[#2ecc71] transition">
-              💬
+            <a
+              href="#"
+              aria-label="واتساپ"
+              className="hover:text-[#2ecc71] transition"
+            >
+              <FaWhatsapp />
             </a>
+            <div className="flex">
+              <img src="/imgs/Color Fill 2.png" alt="" className=" w-40" />
+            </div>
           </div>
         </div>
       </div>
@@ -64,10 +80,11 @@ const Footer = () => {
         <a
           target="_blank"
           href="https://mobinadaneshvar.vercel.app/"
+          rel="noopener noreferrer"
           className="underline"
         >
           {" "}
-          مبینا دانشور
+          <strong>مبینا دانشور</strong>
         </a>
         ✨
       </div>

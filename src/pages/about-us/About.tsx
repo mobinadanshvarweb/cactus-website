@@ -11,7 +11,7 @@ const About = () => {
         <div className="bg-[url(/imgs/about.jpg)] bg-cover bg-center bg-fixed h-screen">
           <div className="w-full bg-black/50 h-full flex items-center justify-center p-10 lg:justify-start lg:p-16">
             <div className="w-full md:w-1/2 h-full bg-[#bfc0b9] custom-clip flex justify-center items-center">
-              <div className="w-[80%] h-[90%]  text-justify overflow-y-scroll custom-scroll text-[#2c8039]">
+              <p className="w-[80%] h-[90%]  text-justify overflow-y-scroll custom-scroll text-[#2c8039]">
                 ما یک مجموعه‌ی تولیدی متخصص در زمینه ساخت تجهیزات آشپزخانه صنعتی
                 از جنس استیل هستیم. با تکیه بر سال‌ها تجربه، دانش فنی و تیمی
                 متعهد، تمرکز ما بر ارائه محصولاتی بادوام، کارآمد و مقرون‌به‌صرفه
@@ -28,7 +28,7 @@ const About = () => {
                 اعتماد و منطبق با نیاز بازار ارائه دهیم. همچنین خدمات مشاوره پیش
                 از خرید، نصب، و پشتیبانی فنی از دیگر امتیازات ماست که باعث شده
                 بسیاری از مشتریان ما، سال‌ها همکاری مستمر با ما داشته باشند.
-              </div>
+              </p>
             </div>
           </div>
         </div>

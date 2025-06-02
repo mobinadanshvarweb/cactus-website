@@ -1,5 +1,4 @@
 import Navigation from "./Navigation";
-import { PiCactus } from "react-icons/pi";
 
 const DesktopNav = () => {
   return (
@@ -19,7 +18,7 @@ const DesktopNav = () => {
       </ul>
       <div className="">
         <a href="#">
-          <PiCactus size={40} className="text-green-700 text-shadow-lg" />
+          <img src="/imgs/Color Fill 2.png" alt="" className=" w-48" />
         </a>
       </div>
     </nav>
