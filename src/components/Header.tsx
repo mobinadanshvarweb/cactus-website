@@ -91,6 +91,9 @@ const Header = () => {
               text="تماس با ما"
               classname="w-full flex justify-center items-center text-[#2c8039] font-bold text-xl my-2"
             />
+            <li className="w-full flex justify-center items-center">
+              <img src="/imgs/Color Fill 2.png" alt="" className="w-40" />
+            </li>
           </ul>
         </div>
       </div>
