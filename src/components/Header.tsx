@@ -46,7 +46,7 @@ const Header = () => {
         </button>
 
         <div>
-          <img src="/public/imgs/Color Fill 2.png" alt="" className="w-32" />
+          <img src="/imgs/Color Fill 2.png" alt="" className="w-32" />
         </div>
       </nav>
 
