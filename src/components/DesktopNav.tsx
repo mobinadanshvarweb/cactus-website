@@ -18,7 +18,11 @@ const DesktopNav = () => {
       </ul>
       <div className="">
         <a href="#">
-          <img src="/imgs/Color Fill 2.png" alt="" className=" w-48" />
+          <img
+            src="/imgs/Color Fill 2.png"
+            alt="لوگوی استیل کاکتوس"
+            className=" w-48"
+          />
         </a>
       </div>
     </nav>

@@ -30,7 +30,7 @@ const ProductDetailsModal = ({ product, onClose }: Props) => {
         </button>
         <img
           src={product.image}
-          alt={`تصویر محصول ${product.name}`}
+          alt={`تصویر محصول ${product.name} استیل کاکتوس`}
           className="w-full h-48 object-contain rounded mb-4"
           loading="lazy"
         />

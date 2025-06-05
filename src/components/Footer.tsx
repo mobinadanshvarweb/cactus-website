@@ -75,7 +75,11 @@ const Footer = () => {
               <FaWhatsapp />
             </a>
             <div className="flex">
-              <img src="/imgs/Color Fill 2.png" alt="" className=" w-40" />
+              <img
+                src="/imgs/Color Fill 2.png"
+                alt="لوگوی استیل کاکتوس"
+                className=" w-40"
+              />
             </div>
           </div>
         </div>

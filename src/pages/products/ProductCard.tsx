@@ -12,7 +12,7 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
     <article className="shadow-lg rounded-lg p-4 flex flex-col items-center bg-white hover:scale-[102%] transition-all duration-500">
       <img
         src={product.image}
-        alt={`تصویر ${product.name}`}
+        alt={`تصویر ${product.name} استیل کاکتوس`}
         className="w-full h-40 object-contain rounded"
         loading="lazy"
       />
