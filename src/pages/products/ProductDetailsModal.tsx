@@ -37,7 +37,6 @@ const ProductDetailsModal = ({ product, onClose }: Props) => {
         <h2 id="modal-title" className="text-2xl font-bold mb-2">
           {product.name}
         </h2>
-        <p className="text-gray-700 mb-2">کد محصول: {product.code}</p>
         <p id="modal-description" className="text-gray-800">
           {product.description}
         </p>

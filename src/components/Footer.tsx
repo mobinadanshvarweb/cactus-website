@@ -41,27 +41,34 @@ const Footer = () => {
           <div className="flex gap-4 text-xl  items-center">
             <a
               href="#"
+              rel="noopener noreferrer"
               aria-label="وب‌سایت"
               className="hover:text-[#2ecc71] transition"
             >
               <FaGlobe />
             </a>
             <a
-              href="#"
+              href="tel:+989007203922"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="تلگرام"
               className="hover:text-[#2ecc71] transition"
             >
               <FaTelegram />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/steel.cactus"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="اینستاگرام"
               className="hover:text-[#2ecc71] transition"
             >
               <FaInstagram />
             </a>
             <a
-              href="#"
+              href="https://wa.me/989127203922"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="واتساپ"
               className="hover:text-[#2ecc71] transition"
             >

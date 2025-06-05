@@ -21,13 +21,9 @@ const ProductCard = ({ product, onShowDetails }: Props) => {
           <h3 className="font-bold text-lg text-[#393a3f] flex-1  flex ">
             {product.name}
           </h3>
-          <p className="text-[#393a3f]  text-xs  flex justify-end">
-            کد: {product.code}
-          </p>
         </div>
       </div>
       <div className="w-full flex justify-between items-center">
-        {/* <p className="text-[#2c8039] font-semibold w-1/2">{product.price}</p> */}
         <button
           onClick={() => onShowDetails(product)}
           className="w-full py-3 bg-[#bdc4ce] rounded justify-center items-center text-lg text-[#2c8039] flex cursor-pointer mt-4 hover:bg-[#2c8039] hover:text-[#bdc4ce] transition duration-300"
